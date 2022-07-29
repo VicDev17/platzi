@@ -1,0 +1,38 @@
+
+:root{
+    --colorPrimary:#04ddb2;
+    --colorFont:white;
+    --colorFontSize: 18px;
+    --font:'arial';
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li{
+    margin: 10px;
+}
+
+button{
+    margin-right: 10px;
+    padding-right: 10px;
+    background-color: var(--colorPrimary); 
+    border: 1px solid  var(--colorPrimary);
+    border-radius: 18px ;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: var(--colorFontSize);
+}
+
